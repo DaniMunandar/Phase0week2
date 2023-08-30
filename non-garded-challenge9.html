@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non Graded Challenge</title>
+</head>
+<body>
+    
+
+    <script>
+
+
+        //Mengkelompokan Angga
+        // function tentukanDeretGeometri(arr) {
+        //     var ratio = arr[ 1 ] / arr[ 0 ];
+
+        //     for (var i = 1; i < arr.length - 1; i++) {
+        //         if (arr[ i + 1 ] / arr[ i ] !== ratio) {
+        //             return false;
+        //         }
+        //     }
+        //     return true;
+        // }
+
+        // console.log(tentukanDeretGeometri([ 1, 3, 9, 27, 81 ]));
+        // console.log(tentukanDeretGeometri([ 1, 3, 9, 27, 48 ]));
+
+
+        //Sitting Arangement
+        // function sittingArrangement(person, column) {
+        //     if (column < 1) {
+        //         return 'Invalid number';
+        //     }
+
+        //     var result = [];
+        //     var currentIndex = 0;
+
+        //     for (var i = 0; i < Math.ceil(person.length / column); i++) {
+        //         var row = [];
+        //         for (var j = 0; j < column; j++) {
+        //             if (currentIndex < person.length) {
+        //                 row.push(person[ currentIndex ]);
+        //                 currentIndex++;
+        //             } else {
+        //                     row.push('Kursi Kosong');
+        //             }
+        //             }
+        //             result.push(row);
+        //         }
+
+        //     return result;
+        // }
+
+        // console.log(sittingArrangement([ 'A', 'B', 'C', 'D' ], 2));
+
+        // console.log(sittingArrangement([ 'Joni', 'Dewi', 'Budi', 'Wati' ], 3));
+
+        // console.log(sittingArrangement([ 'A', 'B', 'C' ], 0));
+
+        //Interesting Ladder Array Multidimensi
+        // function ladder(word) {
+        //     var result = [];
+
+        //     for (var i = 0; i < word.length; i++) {
+        //         var currentWord = '';
+        //         for (var j = 0; j <= i; j++) {
+        //             currentWord += word[ j ];
+        //         }
+        //         result.push(currentWord);
+        //     }
+
+        //     return result;
+        // }
+
+        // var ladderResult = ladder('THESTRONG');
+        // ladderResult.sort(function (a, b) {
+        //     return b.length - a.length;
+        // });
+
+        // for (var i = 0; i < ladderResult.length; i++) {
+        //     console.log(ladderResult[ i ]);
+        // }
+
+
+        //Target terdekat
+        // function targetTerdekat(arr) {
+        //     var indexOfO = arr.indexOf('o');
+        //     var indexOfX = arr.indexOf('x');
+
+        //     if (indexOfX === -1) {
+        //         return 0;
+        //     }
+
+        //     var closestDistance = Math.abs(indexOfX - indexOfO);
+
+        //     for (var i = 0; i < arr.length; i++) {
+        //         if (arr[ i ] === 'x') {
+        //             var distance = Math.abs(i - indexOfO);
+        //             if (distance < closestDistance) {
+        //                 closestDistance = distance;
+        //             }
+        //         }
+        //     }
+
+        //     return closestDistance;
+        // }
+
+        // console.log(targetTerdekat([ 'x', ' ', 'o', ' ', ' ', 'x' ]));
+        // console.log(targetTerdekat([ 'o', ' ', ' ', ' ', 'x', 'x', 'x' ]));
+        // console.log(targetTerdekat([ 'o', ' ', ' ', ' ', 'x', 'x', 'x', ' ', 'x' ]));
+
+
+
+
+    </script>
+
+    <!-- test case -->
+    <!-- console.log("tentukanDeretGeometri([1,3,9,27,81])"); //true
+    console.log("tentukanDeretGeometri([1,4,8,16,32])"); //true
+    console.log("tentukanDeretGeometri([2,4,6,8])"); //fals
+    console.log("tentukanDeretGeometri([2,6,18,54])"); //true
+    console.log("tentukanDeretGeometri([1,2,3,4,7,9])"); //fals -->
+
+
+</body>
+</html>
